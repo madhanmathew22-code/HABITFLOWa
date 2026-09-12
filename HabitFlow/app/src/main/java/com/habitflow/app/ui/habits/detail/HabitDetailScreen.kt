@@ -2,7 +2,6 @@
 
 package com.habitflow.app.ui.habits.detail
 
-import ...
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
