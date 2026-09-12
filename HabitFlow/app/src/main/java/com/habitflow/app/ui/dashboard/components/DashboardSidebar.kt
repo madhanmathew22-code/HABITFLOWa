@@ -1,5 +1,5 @@
 package com.habitflow.app.ui.dashboard.components
-
+import androidx.compose.runtime.getValue
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
