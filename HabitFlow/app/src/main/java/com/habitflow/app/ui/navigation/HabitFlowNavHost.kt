@@ -1,5 +1,5 @@
 package com.habitflow.app.ui.navigation
-
+import androidx.compose.foundation.layout.weight
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
