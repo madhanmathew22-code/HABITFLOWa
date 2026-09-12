@@ -1,5 +1,7 @@
+@file:OptIn(androidx.compose.material3.ExperimentalMaterial3Api::class)
+
 package com.habitflow.app.ui.journal.compose
-@file:OptIn(androidx.compose.foundation.ExperimentalFoundationApi::class)
+
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.PickVisualMediaRequest
 import androidx.activity.result.contract.ActivityResultContracts
