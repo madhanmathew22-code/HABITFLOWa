@@ -1,5 +1,6 @@
-package com.habitflow.app.ui.habits.create
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3Api::class)
+
+package com.habitflow.app.ui.habits.create
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.SizeTransform
 import androidx.compose.animation.slideInHorizontally
