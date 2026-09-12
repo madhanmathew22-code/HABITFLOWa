@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">HabitFlow</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">Today</string>
+    <string name="nav_habits">Habits</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_journal">Journal</string>
+    <string name="nav_insights">Insights</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Today -->
+    <string name="today_progress_title">Today\'s Progress</string>
+    <string name="today_habits_title">Today\'s Habits</string>
+    <string name="today_empty_title">Build your first habit.</string>
+    <string name="today_empty_subtitle">Habits you create will show up here every day they\'re scheduled.</string>
+
+    <!-- Habits -->
+    <string name="habits_add_content_description">Create a new habit</string>
+    <string name="habits_empty_title">No habits yet</string>
+
+    <!-- Journal -->
+    <string name="journal_empty_title">Your story starts here.</string>
+
+    <!-- Insights -->
+    <string name="insights_empty_title">Complete a few habits to unlock insights.</string>
+</resources>

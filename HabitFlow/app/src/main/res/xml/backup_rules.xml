@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- HabitFlow is offline-first and local-only; exclude the DB from
+         Android's auto-cloud-backup so a device restore can't silently
+         collide with the explicit JSON export/import feature (section 26). -->
+    <exclude domain="database" path="habitflow.db" />
+</full-backup-content>

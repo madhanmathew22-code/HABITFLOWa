@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base theme: MainActivity's real UI is 100% Compose (HabitFlowTheme in
+         Theme.kt), so this XML theme only needs to set the window background
+         and status/nav bar behavior before Compose takes over. -->
+    <style name="Theme.HabitFlow" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+    </style>
+
+    <!-- Used only on the launching Activity's window so there's an instant
+         branded frame instead of a blank white flash before Compose draws. -->
+    <style name="Theme.HabitFlow.Splash" parent="Theme.HabitFlow">
+        <item name="android:windowBackground">@color/splash_background</item>
+    </style>
+
+</resources>
