@@ -1,3 +1,5 @@
+@file:OptIn(androidx.compose.foundation.ExperimentalFoundationApi::class)
+
 package com.habitflow.app.ui.journal
 
 import androidx.compose.foundation.background
