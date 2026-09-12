@@ -1,5 +1,8 @@
-package com.habitflow.app.ui.habits.detail
 @file:OptIn(androidx.compose.material3.ExperimentalMaterial3Api::class)
+
+package com.habitflow.app.ui.habits.detail
+
+import ...
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
